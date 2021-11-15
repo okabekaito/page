@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- BootstrapのCSSをhead要素内に追加する -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- 読み込むCSSを追加 -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>ポートフォリオサイト</title>
+</head>
+<body>
+    <!-- Bootstrapでコピーしたものを<body>タグ内にペースト -->
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white"></h4>
+
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://twitter.com/beoka1204" class="text-white">Twitter</a></li>
+                            <li><a href="https://github.com/okabekaito" class="text-white">Github</a></li>
+                            <li><a href="#" class="text-white"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+                    <strong>ポートフォリオ</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main role="main">
+    <section class="jumbotron text-center">
+        <div class="container">
+            <h1 class="jumbotron-heading">制作物の紹介</h1>
+            <h5>初めまして、文京学院大学4年の岡部海斗です。専攻は経営学なのですが、今年の4月半ばにプログラミングに出会い、勉強するために後期から大学を休学しています。このサイトは今までに作成してきた成果物を紹介するページです。</h5>
+        </div　class="jumbotron-heading">
+    </section>
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center col-12">
+                    <h2 class="mb-5 col-12">ポートフォリオとして作成しました。</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="./IMG_0354.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">学習した内容と時間を記録、スケジュールを管理するためのアプリケーションです。モチベーションを維持して勉強し、習慣化させることを目的として作りました。</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"><a href="https://studymanegememtapp.herokuapp.com/">開く</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-info ml-2"><a href="https://github.com/okabekaito/study_app.git">コード</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <h2 class="mb-5">以下も自分で作成したもので、デプロイしたものです。</h2>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="./IMG_0338.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">DOMを使って作成したwebページです。javascriptで作りました</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"><a href="https://okabekaito.github.io/Motivational-Speech-Wallpaper/">開く</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-info ml-2"><a href="https://github.com/okabekaito/Motivational-Speech-Wallpaper.git">コード</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="./IMG_0339.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">JavaScriptを使って作成しました。感情のカテゴリを表示するアプリケーションを作成しました。カテゴリをクリックすると、その感情の擬音カードのセクションにジャンプします。</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info"><a href="https://okabekaito.github.io/Emotion-Onomatopoeia-Dictionary/">開く</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-info ml-2"><a href="https://github.com/okabekaito/Emotion-Onomatopoeia-Dictionary.git">コード</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top"src="./image/IMG_0340.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">スポーツ用品の自動販売機です。ボタンを押すとスライドして登場します。</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info "><a href="https://okabekaito.github.io/Sporting-goods-vending-machine/">開く</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-info ml-2"><a href="https://github.com/okabekaito/Sporting-goods-vending-machine.git">コード</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top"src="./IMG2.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">自分の知っていること、学んだことをノートにして投稿できるWEBアプリケーションを作成しました。（herokuでデプロイしたため、ページがつながらない場合は何度かリロードしてください）</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info "><a href="https://peaceful-lowlands-98059.herokuapp.com/">開く</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-info ml-2"><a href="https://github.com/okabekaito/note_app.git">コード</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top"src="./IMG1.png" alt="Card image cap">
+                        <div class="card-body">
+                            <p class="card-text">Twitterのように文字や画像を投稿ができるアプリケーション。（herokuでデプロイしたため、ページがつながらない場合は何度かリロードしてください）</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-outline-info "><a href="https://blooming-shelf-80123.herokuapp.com/users/sign_in">開く</a></button>
+                                    <button type="button" class="btn btn-sm btn-outline-info ml-2"><a href="https://github.com/okabekaito/contact_App.git">コード</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <h2 class="mb-5">以下は学習サイトで学びながら作成したもので、デプロイしたものです。</h2>
+                </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"src="./IMG_0341.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">TechpitというサイトでLINEbotを使った天気情報を教えてくれるものです。関東南部限定の天気情報を送るように変更してみました。</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-info "><a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=976bwghc">開く</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"src="./IMG_0342.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">Techpitというサイトでインスタアプリ風アプリを作成しました。</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-info "><a href="https://thawing-bayou-12950.herokuapp.com/">開く</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 shadow-sm">
+                            <img class="card-img-top"src="./IMG_0343.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                    <p class="card-text">独学エンジニアという学習サイトで見ながら作りました。実際に僕が読んできた本を簡単な文ですが投稿しています</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-info "><a href="https://obscure-caverns-25162.herokuapp.com/">開く</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+    </main>
+    <footer class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#">トップへ</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- BootstrapのJSをbody要素の一番下に追加する -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
